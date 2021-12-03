@@ -1,0 +1,260 @@
+{
+    "pages": {
+        "editPage": {
+            "add": {
+                "reusable": "在这里添加复用选项",
+                "node": "在这里添加新节点",
+                "script": "在这里添加新脚本"
+            },
+            "script": {
+                "name": "脚本名称",
+                "placeholder": "在这里开始",
+                "select": "选择",
+                "tag": {
+                    "create": "新建",
+                    "choose": "在已有中选择"
+                }
+            },
+            "header": {
+                "file": {
+                    "label": "文件",
+                    "save": "保存",
+                    "export": "导出"
+                },
+                "edit": {
+                    "label": "编辑",
+                    "save": "Save Configuration",
+                    "export": "Export"
+                },
+                "view": {
+                    "label": "视图",
+                    "save": "Save Configuration",
+                    "export": "Export"
+                },
+                "workflow": {
+                    "label": "工作流",
+                    "save": "Save Configuration",
+                    "export": "Export"
+                },
+                "window": {
+                    "label": "窗口",
+                    "save": "Save Configuration",
+                    "export": "Export"
+                },
+                "help": {
+                    "label": "帮助",
+                    "save": "Save Configuration",
+                    "export": "Export"
+                },
+
+                "share": "分享"
+            },
+
+            "share": "分享",
+            "alert": {
+                "reusable": {
+                    "label": "请为复用选项列表命名",
+                    "placeholder": "在这里输入名字"
+                },
+                "bulk": {
+                    "label": "请在下方输入选项",
+                    "placeholder": "在这里输入"
+                },
+                "button": {
+                    "create": "创建",
+                    "exit": "退出"
+                }
+            },
+            "tagName": {
+                "tree": "问卷树",
+                "utilities": "工具",
+                "script": "脚本",
+                "reusable": "复用选项列表",
+                "options": "选项",
+                "comments": "评论"
+            },
+            "step": {
+                "content": "内容",
+                "logic": "逻辑",
+                "appearance": "外观"
+            },
+            "editCard": {
+                "tagName": {
+                    "edit": "编辑",
+                    "form": "表单",
+                    "relation": "关系",
+                    "comment": "评论"
+                },
+                "switch": {
+                    "single": "单个",
+                    "bulk": "批量"
+                },
+                "answer": {
+                    "row": "行",
+                    "col": "列",
+                    "area": "答案区域"
+                }
+            },
+            "comment": {
+                "placeholder": "能请你...",
+                "reply": "回复",
+                "resolve": "解决",
+                "comments": "评论",
+                "hint": "暂时没有评论",
+                "add": "添加新的评论"
+            },
+            "options": {
+                "tagName": {
+                    "type": "类型",
+                    "answerType": "答案类型",
+                    "answer": "答案",
+                    "properties": "属性",
+                    "condition": "条件"
+                },
+                "label": {
+                    "auto": "自动生成答案",
+                    "hide": "隐藏问题",
+                    "rand": "打乱答案顺序",
+                    "qCondition": "问题条件",
+                    "aCondition": "答案条件"
+                },
+                "placeholder": {
+                    "option": "请在这里为此选项添加任何条件引导",
+                    "question": "请在这里为此问题添加任何条件引导"
+                }
+            },
+            "nodeSelection": {
+                "options": {
+                    "before": "在此节点之前添加",
+                    "after": "在此节点之后添加",
+                    "placeholder": "待开发"
+                },
+                "tagName": "节点名称",
+                "nodes": {
+                    "question": "问题节点",
+                    "block": "块级节点",
+                    "loop": "循环节点",
+                    "execution": "执行节点",
+                    "mark": "标记节点",
+                    "quota": "引用节点"
+                },
+                "button": "添加"
+            }
+        }
+    },
+    "nodes": {
+        "blockNode": {
+            "hint": {
+                "title": "编写提示",
+                "content": "这是一个富文本编辑器，但是无法添加任何脚本文件"
+            },
+            "placeholder": "在这里开始",
+            "button": "转到该节点",
+            "tag": "节点",
+            "add": "添加节点"
+        },
+        "executionNode": {
+            "hint": {
+                "title": "编写提示",
+                "content": "这是一个富文本编辑器，但是无法添加任何脚本文件",
+                "add": "在这添加脚本项目"
+            },
+            "placeholder": "在这里开始",
+            "button": "转到该节点"
+        },
+        "questionNode": {
+            "row": "选项(行)",
+            "col": "选项(列)",
+            "hint": {
+                "instruction": "编写提示",
+                "text": "问题内容",
+                "optionInstruction": "请输入提示"
+            },
+            "placeholder": {
+                "editor": "在这里开始",
+                "instruction": "请输入提示"
+            },
+            "button": {
+                "single": "单一",
+                "bulk": "批量"
+            },
+            "tag": { "language": "语言" }
+        },
+        "loopNode": {
+            "hint": {
+                "title": "编写提示",
+                "content": "这是一个富文本编辑器，但是无法添加任何脚本文件"
+            },
+            "placeholder": "在这里开始",
+            "button": "转到该节点",
+            "tag": { "nodes": "节点", "loop": "循环项目" }
+        },
+        "markNode": {
+            "hint": {
+                "title": "编写提示",
+                "content": "这是一个富文本编辑器，但是无法添加任何脚本文件"
+            },
+            "placeholder": "在这里开始",
+            "button": "转到该节点",
+            "tag": "标记"
+        }
+    },
+    "components": {
+        "formCard": {
+            "output": "输出"
+        },
+        "alertWindow": {
+            "screenSizeWarning": {
+                "title": "屏幕尺寸太小",
+                "content1": "问卷编辑工具需要在屏幕尺寸大于 ",
+                "content2": " 像素时才能正确显示，请更换浏览设备或重新调整窗口大小。"
+            },
+            "dimConfig": {
+                "title": "选项属性",
+                "label": {
+                    "randomized": "随机打乱",
+                    "group": {
+                        "label": "选项分组",
+                        "input": "请输入该组名称"
+                    },
+
+                    "other": "待开发选项"
+                },
+                "button": {
+                    "update": "更新",
+                    "cancel": "取消"
+                }
+            },
+            "optionConfig": {
+                "title": "选项属性",
+                "label": {
+                    "fixed": "固定位置",
+                    "openEnd": {
+                        "label": "开放式选项",
+                        "input": { "code": "选项码", "hint": "选项提示" }
+                    },
+
+                    "other": "待开发选项"
+                },
+                "button": {
+                    "update": "更新",
+                    "cancel": "取消"
+                }
+            },
+            "addUnderBlock": {
+                "single": "单项选择",
+                "multi": "多项选择",
+                "openEnd": "开放式问题",
+                "label": "节点名称",
+                "placeholder": "在这里输入名称"
+            },
+            "addScriptItem": {
+                "text": "文本脚本",
+                "exe": "执行脚本",
+                "condition": "条件脚本",
+                "label": "脚本名称",
+                "placeholder": "在这里输入名称"
+            }
+        }
+    }
+}
